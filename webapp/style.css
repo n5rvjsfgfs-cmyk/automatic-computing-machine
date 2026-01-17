@@ -1,7 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #f0f0f0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
   margin: 0;
   padding: 20px;
 }
@@ -9,23 +10,24 @@ body {
 .container {
   max-width: 400px;
   margin: 100px auto;
-  background: white;
+  background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   border-radius: 15px;
 }
 
 button {
-  background: #007BFF;
+  background: #ff6b6b;
   border: none;
   color: white;
   padding: 15px 30px;
   font-size: 18px;
   border-radius: 25px;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
 button:hover {
-  background: #0056b3;
+  background: #ee5253;
 }
 
 #score {
